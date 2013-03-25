@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="112ef14f-6d48-4240-ac48-768fd7453388" name="Greg Pagendam-Turner@WIN-MMMSVAI0F55 2013-03-21 18:19:02" runUser="WIN-MMMSVAI0F55\Greg Pagendam-Turner" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="bf870d32-61b7-43ca-9a04-18847ed6033b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Greg Pagendam-Turner_WIN-MMMSVAI0F55 2013-03-21 18_19_02">
+      <DeploymentItem filename="Z:\Documents\Visual Studio 2010\Projects\Readify\Puzzle1\bin\Debug\Puzzle1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-21T18:19:02.2199093+10:00" queuing="2013-03-21T18:19:03.0661631+10:00" start="2013-03-21T18:19:03.2792270+10:00" finish="2013-03-21T18:19:04.1204793+10:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestPushTooMany" storage="z:\documents\visual studio 2010\projects\readify\puzzle1test\bin\debug\puzzle1test.dll" id="c08974f0-f8a3-d39b-cc6a-da7d0a2ab4a7">
+      <Execution id="9f74807c-941a-4b91-a6c2-c013b8e76945" />
+      <TestMethod codeBase="Z:/Documents/Visual Studio 2010/Projects/Readify/Puzzle1Test/bin/Debug/Puzzle1Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Puzzle1Test.StackTest, Puzzle1Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPushTooMany" />
+    </UnitTest>
+    <UnitTest name="TestEmptyPop" storage="z:\documents\visual studio 2010\projects\readify\puzzle1test\bin\debug\puzzle1test.dll" id="5aba1fdd-bed0-7a42-8adb-0098b8548ce0">
+      <Execution id="e17ea3b8-11e4-4c5b-b8a4-424623f15ca0" />
+      <TestMethod codeBase="Z:/Documents/Visual Studio 2010/Projects/Readify/Puzzle1Test/bin/Debug/Puzzle1Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Puzzle1Test.StackTest, Puzzle1Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEmptyPop" />
+    </UnitTest>
+    <UnitTest name="TestPushPop" storage="z:\documents\visual studio 2010\projects\readify\puzzle1test\bin\debug\puzzle1test.dll" id="375bf3f6-197e-a685-5c93-24b53db78160">
+      <Execution id="c9e4c44c-ba86-41c1-9873-0a5a0014a47a" />
+      <TestMethod codeBase="Z:/Documents/Visual Studio 2010/Projects/Readify/Puzzle1Test/bin/Debug/Puzzle1Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Puzzle1Test.StackTest, Puzzle1Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPushPop" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="375bf3f6-197e-a685-5c93-24b53db78160" executionId="c9e4c44c-ba86-41c1-9873-0a5a0014a47a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aba1fdd-bed0-7a42-8adb-0098b8548ce0" executionId="e17ea3b8-11e4-4c5b-b8a4-424623f15ca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c08974f0-f8a3-d39b-cc6a-da7d0a2ab4a7" executionId="9f74807c-941a-4b91-a6c2-c013b8e76945" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c9e4c44c-ba86-41c1-9873-0a5a0014a47a" testId="375bf3f6-197e-a685-5c93-24b53db78160" testName="TestPushPop" computerName="WIN-MMMSVAI0F55" duration="00:00:00.0199871" startTime="2013-03-21T18:19:03.3312426+10:00" endTime="2013-03-21T18:19:03.7703743+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9e4c44c-ba86-41c1-9873-0a5a0014a47a">
+    </UnitTestResult>
+    <UnitTestResult executionId="e17ea3b8-11e4-4c5b-b8a4-424623f15ca0" testId="5aba1fdd-bed0-7a42-8adb-0098b8548ce0" testName="TestEmptyPop" computerName="WIN-MMMSVAI0F55" duration="00:00:00.0199978" startTime="2013-03-21T18:19:03.7883797+10:00" endTime="2013-03-21T18:19:03.8203893+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e17ea3b8-11e4-4c5b-b8a4-424623f15ca0">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f74807c-941a-4b91-a6c2-c013b8e76945" testId="c08974f0-f8a3-d39b-cc6a-da7d0a2ab4a7" testName="TestPushTooMany" computerName="WIN-MMMSVAI0F55" duration="00:00:00.0174328" startTime="2013-03-21T18:19:03.8724049+10:00" endTime="2013-03-21T18:19:03.8994130+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f74807c-941a-4b91-a6c2-c013b8e76945">
+    </UnitTestResult>
+  </Results>
+</TestRun>
